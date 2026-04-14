@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import { CheckCircle, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
