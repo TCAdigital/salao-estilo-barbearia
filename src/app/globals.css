@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background-elevated: #101010;
+  --color-gold: #D4AF37;
+  --color-gold-light: #F3E5AB;
+  --color-dark: #050505;
+  --color-dark-gray: #1A1A1A;
+  --color-light: #F5F5F5;
+  
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular;
+  
+  /* Additional utilities for brutalist/luxury edges */
+  --radius-none: 0;
+  --radius-sm: 0;
+  --radius-md: 2px;
+  --radius-lg: 4px;
+}
+
+:root {
+  --background: #050505;
+  --foreground: #F5F5F5;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Base custom utilities */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom Scrollbar for luxury feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-dark);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-dark-gray);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold);
+}
