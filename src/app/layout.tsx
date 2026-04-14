@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Barbearia Estilo | Experiência de Tradição",
     description: "60 anos de história no coração de Bauru. Agende seu horário com quem entende do assunto.",
-    url: "https://www.barbeariaestilo.com.br",
+    url: "https://www.salaoestilo.com.br",
     siteName: "Barbearia Estilo",
     type: "website",
   },

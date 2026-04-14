@@ -111,8 +111,8 @@ export default function Footer() {
                 <Clock size={16} className="text-[#C59B6D] shrink-0" />Seg - Sáb, 08h - 19h
               </li>
               <li>
-                <a href="mailto:contato@barbeariaestilo.com.br" className="flex items-center gap-3 text-sm text-zinc-500 hover:text-[#C59B6D] transition-colors">
-                  <Mail size={16} className="text-[#C59B6D] shrink-0" />contato@barbeariaestilo.com.br
+                <a href="mailto:contato@salaoestilo.com.br" className="flex items-center gap-3 text-sm text-zinc-500 hover:text-[#C59B6D] transition-colors">
+                  <Mail size={16} className="text-[#C59B6D] shrink-0" />contato@salaoestilo.com.br
                 </a>
               </li>
             </ul>
