@@ -18,11 +18,12 @@ export default function AboutSection() {
           {/* Big image top-left - Vintage Barber Shop */}
           <div className="absolute top-0 left-0 w-[65%] h-[80%] overflow-hidden border border-white/5">
             <Image
-              src="https://images.unsplash.com/photo-1582095133179-bfd08e2fb6b9?auto=format&fit=crop&w=800&q=80"
-              alt="Barbearia Tradicional"
+              src="/pai-filho.jpg"
+              alt="Hélzio e Mateus - Barbearia Estilo"
               fill
               className="object-cover object-center grayscale hover:grayscale-0 transition-all duration-700"
               sizes="400px"
+              priority
             />
           </div>
 
