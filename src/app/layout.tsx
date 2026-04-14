@@ -19,8 +19,8 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Barbearia Estilo | Tradição e Estilo em Bauru",
-  description: "A Barbearia Estilo em Bauru oferece cortes de cabelo e barba com a tradição de 60 anos no mercado. Descubra a nossa história de pai para filho.",
-  keywords: ["barbearia", "barbearia estilo", "corte de cabelo bauru", "barba bauru", "tradição", "helzio alves"],
+  description: "A Barbearia Estilo em Bauru oferece cortes de cabelo e barba com a tradição de 60 anos no mercado. Descubra a nossa história de pai para filho. Construído pela TCA Digital Ai-Driven.",
+  keywords: ["barbearia", "barbearia estilo", "corte de cabelo bauru", "barba bauru", "tradição", "helzio alves", "mateus caldeira alves", "bauru", "TCA Digital Ai-Driven"],
   openGraph: {
     title: "Barbearia Estilo | Experiência de Tradição",
     description: "60 anos de história no coração de Bauru. Agende seu horário com quem entende do assunto.",

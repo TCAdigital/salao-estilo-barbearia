@@ -115,9 +115,14 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-zinc-600">
-          <p>&copy; {new Date().getFullYear()} Barbearia Estilo. Todos os direitos reservados.</p>
-          <p>Tradição que passa de pai para filho em Bauru.</p>
+        <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-zinc-600">
+          <div className="flex flex-col gap-1 items-center md:items-start">
+            <p>&copy; {new Date().getFullYear()} Barbearia Estilo. Todos os direitos reservados.</p>
+            <p>Tradição que passa de pai para filho em Bauru.</p>
+          </div>
+          <div className="text-zinc-500">
+            Desenvolvido com amor ❤️ pela <a href="https://www.tcadigital.com.br/express" target="_blank" rel="noopener noreferrer" className="text-[#C59B6D] hover:underline transition-all">TCA Digital Ai-Driven</a>
+          </div>
         </div>
       </div>
     </footer>
