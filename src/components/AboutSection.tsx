@@ -16,24 +16,24 @@ export default function AboutSection() {
         {/* Left: Image collage */}
         <div className="relative hidden lg:flex h-[540px]">
           {/* Big image top-left - Vintage Barber Shop */}
-          <div className="absolute top-0 left-0 w-[65%] h-[80%] overflow-hidden border border-white/5">
+          <div className="absolute top-0 left-0 w-[75%] h-[90%] overflow-hidden border border-white/5 shadow-2xl z-0">
             <Image
               src="/pai-filho.jpg"
               alt="Hélzio e Mateus - Barbearia Estilo"
               fill
               className="object-cover object-center grayscale hover:grayscale-0 transition-all duration-700"
-              sizes="400px"
+              sizes="500px"
               priority
             />
           </div>
 
           {/* Small image bottom-right - Football/Retro reference */}
-          <div className="absolute bottom-0 right-0 w-[55%] h-[55%] border-8 border-[#1a1a1a] overflow-hidden shadow-2xl">
+          <div className="absolute bottom-0 right-0 w-[50%] h-[50%] border-8 border-[#1a1a1a] overflow-hidden shadow-2xl z-10">
             <Image
               src="/historia-noroeste.png"
               alt="História e Tradição"
               fill
-              className="object-cover object-center"
+              className="object-cover object-center grayscale hover:grayscale-0 transition-all duration-700"
               sizes="320px"
             />
           </div>
