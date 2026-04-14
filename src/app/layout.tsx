@@ -26,7 +26,21 @@ export const metadata: Metadata = {
     description: "60 anos de história no coração de Bauru. Agende seu horário com quem entende do assunto.",
     url: "https://www.salaoestilo.com.br",
     siteName: "Barbearia Estilo",
+    images: [
+      {
+        url: "/print-salao-estilo.png",
+        width: 1200,
+        height: 630,
+        alt: "Barbearia Estilo - Tradição e Estilo em Bauru",
+      },
+    ],
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Barbearia Estilo | Tradição em Bauru",
+    description: "60 anos de história no coração de Bauru. Agende seu horário com quem entende do assunto.",
+    images: ["/print-salao-estilo.png"],
   },
 };
 
