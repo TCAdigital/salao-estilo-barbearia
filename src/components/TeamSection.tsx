@@ -5,13 +5,13 @@ const team = [
   {
     name: "Hélzio A. Aguirra Alves",
     role: "Barbeiro Sênior & Fundador",
-    img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+    img: "/helzio.jpeg",
     desc: "Ex-jogador do Noroeste E.C. e mestre na arte da barbearia clássica com 60 anos de experiência."
   },
   {
     name: "Mateus Caldeira Alves",
     role: "Barbeiro Master & Gestor",
-    img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+    img: "/mateus.jpeg",
     desc: "Unindo a tradição da família com as técnicas mais modernas de corte e visagismo."
   },
 ];
