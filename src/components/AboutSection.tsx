@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { CheckCircle, ArrowRight } from "lucide-react";
+import { motion } from "framer-motion";
 
 const features = [
   "Tradição de Pai para Filho",
@@ -39,10 +40,19 @@ export default function AboutSection() {
           </div>
 
           {/* Gold accent box */}
-          <div className="absolute bottom-10 left-0 bg-[#C59B6D] px-6 py-5 text-black z-10 w-44 text-center shadow-lg">
-            <p className="font-[family-name:var(--font-playfair)] text-4xl font-black leading-none">60+</p>
+          <motion.div 
+            initial={{ y: 0 }}
+            animate={{ y: [0, -10, 0] }}
+            transition={{ 
+              duration: 4, 
+              repeat: Infinity, 
+              ease: "easeInOut" 
+            }}
+            className="absolute bottom-5 left-0 bg-[#C59B6D] px-6 py-5 text-black z-10 w-44 text-center shadow-lg"
+          >
+            <p className="font-[family-name:var(--font-playfair)] text-4xl font-black leading-none">+ 60</p>
             <p className="text-xs font-bold uppercase tracking-wider mt-1">Anos de Tradição</p>
-          </div>
+          </motion.div>
         </div>
 
         {/* Right: Text */}
