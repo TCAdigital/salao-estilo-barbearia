@@ -1,14 +1,13 @@
-const photos = [
   { 
     src: "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=600&q=80", 
     label: "Corte Social" 
   },
   { 
-    src: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=600&q=80", 
+    src: "/corte-degrade.jpeg", 
     label: "Corte Degrade" 
   },
   { 
-    src: "https://images.unsplash.com/photo-1593702295094-05574aa940e5?auto=format&fit=crop&w=600&q=80", 
+    src: "/barba.jpeg", 
     label: "Barba" 
   },
   { 
