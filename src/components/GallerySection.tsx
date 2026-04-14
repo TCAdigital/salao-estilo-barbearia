@@ -1,3 +1,4 @@
+const photos = [
   { 
     src: "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=600&q=80", 
     label: "Corte Social" 
