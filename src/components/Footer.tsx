@@ -44,8 +44,13 @@ export default function Footer() {
                   className="object-contain"
                 />
               </div>
-              <div className="font-[family-name:var(--font-playfair)] font-black text-white text-xl tracking-wider uppercase">
-                Barbearia <span className="text-[#C59B6D]">Estilo</span>
+              <div className="flex flex-col leading-none">
+                <div className="font-[family-name:var(--font-playfair)] font-black text-white text-xl tracking-wider uppercase">
+                  Salão <span className="text-[#C59B6D]">Estilo</span>
+                </div>
+                <div className="font-[family-name:var(--font-geist-sans)] text-[9px] font-bold uppercase tracking-[0.3em] text-zinc-500 mt-0.5 ml-0.5">
+                  Barbearia
+                </div>
               </div>
             </div>
             <p className="text-zinc-500 text-sm leading-relaxed">

@@ -70,9 +70,14 @@ export default function Header() {
               priority
             />
           </div>
-          <span className="font-[family-name:var(--font-playfair)] font-black text-white text-2xl tracking-tighter uppercase">
-            Barbearia <span className="text-[#C59B6D]">Estilo</span>
-          </span>
+          <div className="flex flex-col leading-none">
+            <span className="font-[family-name:var(--font-playfair)] font-black text-white text-2xl tracking-tighter uppercase">
+              Salão <span className="text-[#C59B6D]">Estilo</span>
+            </span>
+            <span className="font-[family-name:var(--font-geist-sans)] text-[10px] font-bold uppercase tracking-[0.3em] text-zinc-500 mt-0.5 ml-0.5">
+              Barbearia
+            </span>
+          </div>
         </a>
 
         {/* Desktop Links */}
